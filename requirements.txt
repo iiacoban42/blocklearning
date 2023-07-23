@@ -1,4 +1,5 @@
 numpy
+idx2numpy
 tensorflow
 diffprivlib
 web3

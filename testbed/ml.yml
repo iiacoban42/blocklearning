@@ -39,5 +39,5 @@ services:
 
 networks:
   default:
-    external:
-      name: bflnet
+    name: bflnet
+    external: True

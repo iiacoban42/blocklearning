@@ -1,9 +1,4 @@
 # Hack path so we can load 'blocklearning'
-import blocklearning.utilities as butilities
-import blocklearning.weights_loaders as weights_loaders
-import blocklearning.model_loaders as model_loaders
-import blocklearning
-import utilities as utilities
 import json
 import random
 import time
@@ -12,7 +7,11 @@ import click
 import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
+import blocklearning.utilities as butilities
+import blocklearning.weights_loaders as weights_loaders
+import blocklearning.model_loaders as model_loaders
+import blocklearning
+import utilities as utilities
 
 # Setup Log
 log_file = '../../blocklearning-results/results/CURRENT/logs/manager.log'
